@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    height: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.parallax{
+    position: relative;
+    background-image: url("image/0.jpg");
+    min-height: 100%;
+    background-position: center;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nametag{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 2px solid white;
+    padding: 18px 18px;
+
+    max-width: 350px;
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+}
+
+.parallax1{
+    position: relative;
+    background-image: url("image/1.jpg");
+    min-height: 100%;
+    background-position: center;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2{
+    position: relative;
+    background-image: url("image/2.jpg");
+    min-height: 100%;
+    background-position: center;
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* code for the section mentioned in between the images! */
+
+/* section-1 */
+.section1{
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 100%;
+    margin: auto;
+
+    background-color: rgba(160, 36, 36, 0.9);
+    /* background-color: rgba(117, 168, 120, 0.9); */
+}
+
+.section1 h2{
+    padding: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 4vw;
+}
+
+.section1 p{
+    text-align: center;
+    padding: 35px;
+    color:white;
+    font-size: 1.5vw;
+}
+
+/* section-2 */
+.section2{
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 100%;
+    margin: auto;
+
+    background-color: rgba(160, 36, 36, 0.9);
+    /* background-color: rgba(117, 168, 120, 0.9); */
+}
+
+.section2 h2{
+    padding: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 4vw;
+}
+
+.section2 p{
+    text-align: center;
+    padding: 35px;
+    color:white;
+    font-size: 1.5vw;
+}
+
+/* section-3 */
+.section3{
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 100%;
+    margin: auto;
+
+    background-color: rgba(160, 36, 36, 0.9);
+    /* background-color: rgba(117, 168, 120, 0.9); */
+}
+
+.section3 h2{
+    padding: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 4vw;
+}
+
+.section3 p{
+    text-align: center;
+    padding: 35px;
+    color:white;
+    font-size: 1.5vw;
+}
+
+
+.navbar{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 25px;
+}
+
+.navbar:hover{
+    text-decoration: underline;
+}
+
+#github-link{
+    display: inline-block;
+    text-decoration: none;
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    color: black;
+    border: 2px solid #444;
+    padding: 3px;
+
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 25px;
+}
+
+#github-link:hover{
+    background-color: #555;
+    color: white;
+}
+
+
+#parallax2{
+    position: relative;
+}
+
+#go-to-top-btn{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(51, 51, 51, 0.6);
+
+    position: fixed;
+    right: 7px;
+    bottom: 7px;
+
+    display: inline-block;
+    width: 30px;
+    padding: 12px;
+    border: 2px solid white;
+
+    text-align: center;
+    font-size: 20px;
+}
+
+#go-to-top-btn:hover{
+    background-color: #444;
+
+}
+
+.bottom-div{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    max-width: 100%;
+    border-top: 2px solid white;
+}
+
+.bottom-div a{
+    padding: 0vw 0.8vw 0vw;
+    display: block;
+    color: white;
+    text-decoration: none;
+
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 20px;
+}
+
+.bottom-div a:hover{
+    text-decoration: underline;
+}
