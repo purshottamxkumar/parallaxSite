@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.divWithMiddleName {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 2px solid white;
+    padding: 18px 18px;
+
+    max-width: 350px;
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    text-align: center;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+}
+
+.par-1 {
+    background-image: url("./images/n1.jpg");
+}
+
+.par-2 {
+    background-image: url("./images/n2.jpg");
+}
+
+.par-3 {
+    background-image: url("./images/n3.jpg");
+}
+
+.par-4 {
+    background-image: url("./images/n4.jpg");
+}
+
+.parallax-effects {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.sections {
+    max-width: 100%;
+    margin: auto;
+    background-color: rgba(160, 36, 36, 0.9);
+
+    padding-bottom: 50px;
+}
+
+.sections h2 {
+    padding: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.sections p {
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 35px;
+    color:white;
+    font-size: 1.5vw;
+}
+
+.para {
+    max-width: 80%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#github-link {
+    display: inline-block;
+    text-decoration: none;
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    color: black;
+    border: 2px solid #444;
+    padding: 3px 6px;
+
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 25px;
+
+    background-color: aliceblue;
+}
+
+#github-link:hover {
+    background-color: #555;
+    color: white;
+}
+
+#go-to-top-btn {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(51, 51, 51, 0.6);
+
+    position: fixed;
+    right: 7px;
+    bottom: 7px;
+
+    display: inline-block;
+    width: 30px;
+    padding: 12px;
+    border: 2px solid white;
+
+    text-align: center;
+    font-size: 20px;
+}
+
+#go-to-top-btn:hover {
+    background-color: #444;
+}
